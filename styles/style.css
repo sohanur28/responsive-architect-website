@@ -93,3 +93,39 @@ header{
     border: #FF900E;
     border-radius: 8px;
 }
+/* --------- */
+
+/* section-3 */
+
+/* ---------- */
+
+/* section-4 */
+.boxes{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.box{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+}
+/* -------- */
+
+/* section-5 */
+
+/* --------- */
+
+/* section-6 */
+.sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/* ------- */
+
+/* footer */
+footer{
+    background-color: rgba(255, 244, 231, 1);
+}
