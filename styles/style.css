@@ -26,11 +26,11 @@ header{
 
 /* banner styles */
 .heading-banner{
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    gap: 35px;
-}
+}    
 
 .banner-title h1{
     color: #131313;
@@ -46,7 +46,7 @@ header{
     text-align: center;
 }
 
-button{
+.banner-btn{
     width: 180px;
     height: 64px;
     background: #FF900E;
@@ -61,5 +61,35 @@ button{
 .banner-img img{
     width: 1000px;
     height: 540px;
+    border-radius: 8px;
+}
+
+/* ----------- */
+
+/* main part */
+/* section-1 */
+.features{
+    display: flex;
+    gap: 40px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px4;
+}
+ .feature-detail{
+    align-items: center;
+ }
+ /* ---------- */
+
+ /* section-2 */
+ .feature-experience{
+    display: flex;
+    align-items: center;  
+ }
+.ex-btn{
+    background-color: #FF900E;
+    color: white;
+    border: #FF900E;
     border-radius: 8px;
 }
