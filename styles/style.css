@@ -101,6 +101,15 @@ header{
     justify-content: center;
     width: 500px;
  }
+ .feature-title{
+    font-size: 45px;
+    font-weight: 700;
+ }
+ .feature-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+ }
  .feature-btn{
     width: 160px;
     height: 64px;
@@ -114,14 +123,35 @@ header{
  /* ---------- */
 
  /* section-2 */
- .feature-experience{
+ .feature-explain{
     display: flex;
-    align-items: center;  
+    justify-content: center;
+    gap: 90px;
+    margin-top: 130px;
+ }
+ .explaining{
+    width: 550px;
+    height: 750px;
+    margin-top: 50px;
+ }
+ .exp-title{
+    border-left: 5px solid #FF900E;
+ }
+ .exp-img-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .exp-img img{
+    width: 550px;
+    height: 750px;
  }
 .ex-btn{
     background-color: #FF900E;
     color: white;
     border: #FF900E;
+    width: 250px;
+    height: 150px;
     border-radius: 8px;
 }
 /* --------- */
